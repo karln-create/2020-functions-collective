@@ -1,0 +1,5 @@
+﻿  prob7.c
+X:\dev\c\pa8\PA8\prob7.c(91,74): warning C4047: '=': 'int *' differs in levels of indirection from 'int **'
+X:\dev\c\pa8\PA8\prob7.c(104,16): warning C4047: '=': 'int **' differs in levels of indirection from 'int *'
+X:\dev\c\pa8\PA8\prob7.c(148,38): warning C4047: '=': 'int **' differs in levels of indirection from 'int *'
+  PA8.vcxproj -> X:\dev\c\pa8\Debug\PA8.exe
