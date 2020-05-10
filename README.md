@@ -9,7 +9,7 @@
 
 1. 
 
-Write a function called my_str_n_cat() that:     - accepts pointer to a destination character array, and
+    Write a function called my_str_n_cat() that:     - accepts pointer to a destination character array, and
                                                     - accepts pointer to a source character array (assumed to be a string), and
                                                     - returns the pointer to the destination array.
         This function needs to copy at most n characters (one by one) from the source character array to the end of the destination character array.
@@ -19,11 +19,11 @@ Write a function called my_str_n_cat() that:     - accepts pointer to a destinat
 
 2. 
 
-Write a function called binary_search().
+    Write a function called binary_search().
 
 3. 
 
-Write a function called bubble_sort() that:      - accepts an array of pointers to strings, and the number of strings as arguments, and
+    Write a function called bubble_sort() that:      - accepts an array of pointers to strings, and the number of strings as arguments, and
                                                     - returns nothing.
         This function sorts the strings according to the following algorithm:
         1. set the marker U for the unsorted section at the end of the list (U is an integer index value)
@@ -38,7 +38,7 @@ Write a function called bubble_sort() that:      - accepts an array of pointers 
 
 4. 
 
-Write a recursive function called is_palindrome() that:  - accepts a pointer to a string and its length, and
+    Write a recursive function called is_palindrome() that:  - accepts a pointer to a string and its length, and
                                                             - determines recursively if the string is a palindrome.
         The function must returns 1 for a palindrome, 0 otherwise.    
     (*) A palindrome is a sequence of symbols that maybe interpreted the same forward and backward.
@@ -47,12 +47,12 @@ Write a recursive function called is_palindrome() that:  - accepts a pointer to 
 
 5. 
 
-Write a recursive function called sum_primes() that:     - accepts an unsigned integer, n, as an argument, and
+    Write a recursive function called sum_primes() that:     - accepts an unsigned integer, n, as an argument, and
                                                             - returns the sum of all primes from 2 to n.
 
 6. 
 
-Write a function called maximum_occurances() that accepts:  - a pointer to a string (alphanumeric & whitespace characters only),
+    Write a function called maximum_occurances() that accepts:  - a pointer to a string (alphanumeric & whitespace characters only),
                                                                - a pointer to an array of struct occurances,
                                                                - a pointer to an integer, and
                                                                - a pointer to a character
@@ -74,7 +74,7 @@ Write a function called maximum_occurances() that accepts:  - a pointer to a str
         
 7. 
 
-Write a function called max_consecutive_integers() that accepts: - a two-dimensional array of signed integers,
+    Write a function called max_consecutive_integers() that accepts: - a two-dimensional array of signed integers,
                                                                     - the number of rows,
                                                                     - the number of cols,
                                                                     - one pointer as direct output parameter,
