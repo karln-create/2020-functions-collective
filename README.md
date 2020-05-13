@@ -88,6 +88,10 @@
 
 
 # DEVELOPMENT HISTORY:
+Update | 2020/05/12/Tue, 16:56 PDT
+
+    Minor adjustment to algorithm in problem 7 to clean up and clarify the code.
+    
 Update | 2020/05/08/Fri, 17:43 PDT
 
     PA8 completed.
