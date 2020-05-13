@@ -88,6 +88,10 @@
 
 
 # DEVELOPMENT HISTORY:
+Update | 2020/05/13/Wed, 07:52 PDT
+    More adjustments to clarify the algorithm further.
+    TO-DO: catalog all functions into a library file.
+
 Update | 2020/05/12/Tue, 16:56 PDT
 
     Minor adjustment to algorithm in problem 7 to clean up and clarify the code.
