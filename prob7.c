@@ -26,7 +26,7 @@ signed int *max_consecutive_integers(signed int arr[][5], int row, int col, int 
 	int i = 0, j = 0, /* sentinels for row and col */
 		temp_r = 0, temp_c = 0,
 		seq = 0, new_seq = 0;
-	signed int *ptr = &(**arr); /* declare and initialize pointer ptr with the address of the first element of arr, i.e. arr[0][0] */
+	signed int *ptr = NULL;
 
 	for (i = 0; i < row; ++i) // row
 	{
