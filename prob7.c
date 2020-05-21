@@ -58,8 +58,7 @@ signed int *max_consecutive_integers(signed int arr[][5], int row, int col, int 
 			/* check for the presence of a sequence */
 			if (*(*(arr + i) + j) == *(*(arr + i) + j + 1))
 				++new_seq;
-
-			/* otherwise, reset the sequence counter */
+			/* otherwise, reset the sequence counter */explor
 			else if (*(*(arr + i) + j) != *(*(arr + i) + j + 1))
 				new_seq = 1;
 		}

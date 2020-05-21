@@ -12,6 +12,7 @@ struct occurences
 } Occurences;
 
 void problem1(void);
+void problem1extra(void);
 void problem2(void);
 void problem3(void);
 void problem4(void);

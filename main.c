@@ -7,12 +7,13 @@
 int main(void)
 {
     //problem1();
+    problem1extra();
     //problem2();
     //problem3();
     //problem4();
     //problem5();
     //problem6();
-    problem7();
+    //problem7();
 
     return 0;
 }

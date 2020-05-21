@@ -1,10 +1,10 @@
-a.exe: main.o prob7.o
-	gcc -o a main.o prob7.o
+a.exe: main.o prob1extra.o
+	gcc -o a main.o prob1extra.o
 
 main.o: main.c root.h
 	gcc -Wall -Wextra -Wconversion -std=gnu11 -g -c main.c
 
-prob7.o: prob7.c root.h
-	gcc -Wall -Wextra -Wconversion -std=gnu11 -g -c prob7.c
+prob1extra.o: prob1extra.c root.h
+	gcc -Wall -Wextra -Wconversion -std=gnu11 -g -c prob1extra.c
 clean:
-	del a.exe main.o prob7.o
+	del a.exe main.o prob1extra.o
